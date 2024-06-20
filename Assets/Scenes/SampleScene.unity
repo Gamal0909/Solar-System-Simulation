@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 156593724}
   - component: {fileID: 156593723}
   - component: {fileID: 156593722}
+  - component: {fileID: 156593727}
   - component: {fileID: 156593726}
   m_Layer: 0
   m_Name: Neptune
@@ -241,6 +242,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 799785732}
   speed: 3
+--- !u!114 &156593727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156593721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f0519b3d13f02345a2debb33bfc3327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &516113486
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +731,7 @@ GameObject:
   - component: {fileID: 829737077}
   - component: {fileID: 829737076}
   - component: {fileID: 829737079}
+  - component: {fileID: 829737080}
   - component: {fileID: 829737075}
   m_Layer: 0
   m_Name: Pluto
@@ -827,6 +842,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 799785732}
   speed: 2
+--- !u!114 &829737080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829737074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f0519b3d13f02345a2debb33bfc3327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &909557792
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +972,7 @@ GameObject:
   - component: {fileID: 918136847}
   - component: {fileID: 918136846}
   - component: {fileID: 918136845}
+  - component: {fileID: 918136850}
   - component: {fileID: 918136849}
   m_Layer: 0
   m_Name: Mars
@@ -1054,6 +1083,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 799785732}
   speed: 12
+--- !u!114 &918136850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918136844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f0519b3d13f02345a2debb33bfc3327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
